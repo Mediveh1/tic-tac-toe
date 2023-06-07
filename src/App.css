@@ -1,0 +1,35 @@
+
+.square{
+  min-width: 100px;
+  min-height: 100px;
+  vertical-align: top;
+} 
+
+.game-header{
+  display: flex;
+  height:80px;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color: darkcyan,;
+}
+
+.game-body{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left:120px;
+}
+.status{
+  position: relative;
+  bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  
+  
+}
+.game{
+  background-color: lightblue;
+  height: 100vh;
+}
